@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+  <!--
+    ==================================================================
+    This is the Log4J Configuration used in Eclipse for Development
+    ==================================================================
+  -->
+<log4j:configuration>
+
+ <appender name="stdout" class="org.apache.log4j.ConsoleAppender">
+    <param name="Target" value="System.out" />
+    <layout class="org.apache.log4j.PatternLayout">
+      <!--
+        note: the class, method and file props are carefully composed to
+        allow hyperlinking in eclipse. please be very careful about
+        changing them.
+      -->
+      <param name="ConversionPattern"
+        value="[%-5p][%d{HH:mm:ss,SSS}][:%X{app_name}:%X{request_id}][v(%X{user_id}):c(%.128X{tag})][t(%t)]%n[ %C.%M(%F:%L) ][%.90c]%n---- %m%n" />
+    </layout>
+  </appender>  
+     
+  <root>
+    <priority value="info" />
+    <appender-ref ref="stdout" />
+  </root>
+
+</log4j:configuration>
