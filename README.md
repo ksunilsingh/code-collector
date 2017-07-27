@@ -6,6 +6,8 @@ This project is a proof of concept for an idea on improving inclusion of open so
 
 The resulting jar file would be smaller in size than if the full jar for the dependency is included as is.
 
-These steps can be performed after coding and testing is complete for the project and we are ready to release. I have automated the steps 1 and 2 only in this proof of concept.
+These steps can be performed after coding and testing is complete for the project and we are ready to release. I have automated the steps 1 and 2 only in this proof of concept. Steps for building and running the projects are in the buildandrun.md file.
 
 This could be a feature that can be included in build systems such as maven and gradle.
+
+Please let me know what you think by sending an email to: ksunilsingh  aaaaaat gmail dot com
