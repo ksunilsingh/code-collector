@@ -38,3 +38,8 @@ where C:\Program Files\Apache\apache-maven-3.2.2 is the directory where maven is
 8. Compare the jar generated in step 7 (166 KB) with the one in step 4 (480 KB).
 
 
+Thanks for following the steps. I know it is somewhat cumbersome but that is why it is a proof of concept. 
+
+Please let me know if it didn't work or you have questions by sending an email to ksunilsingh attt gmail dottt commm.
+
+
